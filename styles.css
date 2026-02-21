@@ -4,51 +4,47 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Header */
+/* MUST target header directly */
 header {
   background-color: #011e29;
   color: white;
-  text-align: center !important;   /* FORCE */
-  padding: 30px;
+  text-align: center;   /* REQUIRED */
+  padding: 20px;        /* REQUIRED */
 }
 
-/* Layout Container */
+/* Layout */
 .container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  gap: 5px;
+  gap: 50px;
   max-width: 1100px;
   margin: 40px auto;
 }
 
-/* Common Card Style */
+/* Cards */
 .latest-news-section,
 .main-article,
 .pictorial-news-section {
   background-color: white;
-  padding: 25px;
-  border-radius: 15px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-/* Left Section */
+/* Left */
 .latest-news-section {
   width: 250px;
 }
 
-/* Center Section */
+/* Center */
 .main-article {
   width: 400px;
   text-align: center;
 }
 
-/* Right Section */
+/* Right */
 .pictorial-news-section {
   width: 250px;
-  text-align: center !important;   /* FORCE */
-  background-color: white;
-  padding: 25px;
-  border-radius: 15px;
+  text-align: center;   /* REQUIRED */
 }
 
 /* Images */
@@ -57,5 +53,4 @@ header {
   height: 120px;
   object-fit: cover;
   margin: 10px 0;
-  border-radius: 5px;
 }
