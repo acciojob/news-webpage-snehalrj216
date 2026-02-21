@@ -8,7 +8,7 @@ body {
 header {
   background-color: #011e29;
   color: white;
-  text-align: center;
+  text-align: center !important;   /* FORCE */
   padding: 30px;
 }
 
@@ -45,7 +45,10 @@ header {
 /* Right Section */
 .pictorial-news-section {
   width: 250px;
-  text-align: center;
+  text-align: center !important;   /* FORCE */
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
 }
 
 /* Images */
